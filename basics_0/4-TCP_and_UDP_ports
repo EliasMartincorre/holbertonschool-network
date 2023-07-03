@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Bash script that displays listening ports
+
+sudo netstat -tunap | grep LISTEN
+#sudo netstat -a --unix | grep LISTEN
